@@ -9,8 +9,6 @@ As my curated collection of video games grows larger, I come across many PC game
 
 As a solution, I began to download and create my own BP images. You can download the latest version of that collection [here](https://drive.google.com/open?id=0B2dbtTzEquEOVlFwU2JVSkVQQVE).
 
-<hr />
-
 ### Easier Pokemon Conversion
 
 Using the Retron 5, I was able to find an easier method of converting Gen 1 and 2 Pokemon up to Gen 3 and onward. 
@@ -18,12 +16,8 @@ Using the Retron 5, I was able to find an easier method of converting Gen 1 and 
 View the full guide [here](epc.html).
 
 
-<hr />
-
 ### This website (v0.2)
 
 This website is an experiment with Markdown to make a minimalistic mini-site for myself and a handful of other people.
 
 The source code can be found [here](https://drive.google.com/open?id=0B2dbtTzEquEOVmxtQUdIdmpPc1E).
-
-<hr />
