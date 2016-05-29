@@ -1,4 +1,4 @@
-<center>[*Home*](index.html) // [*About*](about.html) // [*Projects*](projects.html)</center>
+<center>[*Home*]("index") // [*About*]("about") // [*Projects*]("projects")</center>
 
 # About Me
 
