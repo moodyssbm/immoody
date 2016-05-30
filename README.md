@@ -1,2 +1,0 @@
-# immoody
-MD Minisite
