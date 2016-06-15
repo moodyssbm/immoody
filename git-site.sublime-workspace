@@ -7,39 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Home.md",
-			"settings":
-			{
-				"buffer_size": 24,
-				"line_ending": "Unix",
-				"name": "# Site under maintenance"
-			}
-		},
-		{
-			"file": "About.md",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "EPC.md",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Projects.md",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -78,6 +45,15 @@
 	},
 	"file_history":
 	[
+		"/Users/Moody/Documents/GitHub/immoody/Projects.md",
+		"/Users/Moody/Documents/GitHub/immoody/EPC.md",
+		"/Users/Moody/Documents/GitHub/immoody/About.md",
+		"/Users/Moody/Documents/GitHub/immoody/Home.md",
+		"/Users/Moody/Documents/lol.mp4",
+		"/Users/Moody/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/Moody/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/Moody/Documents/GitHub/immoody/Home.html",
+		"/Users/Moody/Documents/GitHub/immoody/git-site.sublime-project",
 		"/Users/Moody/Documents/Code/Markdown/hw.md",
 		"/Users/Moody/Documents/GitHub/immoody/.gitignore",
 		"/Users/Moody/Documents/GitHub/immoody/.htaccess"
@@ -115,122 +91,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Home.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"auto_name": "# Site under maintenance",
-							"syntax": "Packages/MarkdownHighlighting/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "About.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownHighlighting/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "EPC.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownHighlighting/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Projects.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownHighlighting/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
