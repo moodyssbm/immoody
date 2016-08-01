@@ -1,0 +1,11 @@
+<img src="moody.png" />
+
+<center>[Home](Home.html) // [About](About.html) // [Projects](Projects.html)</center>
+
+<center><h1>About Me</h1></center>
+
+My name is Ethan, but I go by Moody. I'm 21, in college, and working a full time job. I'm going to school for software engineering. I just switched my major in fall of 2016. I've always enjoyed computers for as long as I can remember, so I'm excited to begin this new adventure in life.
+
+If you want to follow any of my various social media accounts, I have a [Twitter](twitter.com/moodyssbm), an [Instagram](instagr.am/moodyssbm), and a gaming blog called [Greycart](greycart.tumblr.com).
+
+<center><img src="github.png" /> ~ <img src="mdown.png" /><br /><em><font size="2">Coded with <3 and a little Markdown magic.</font></em></center>

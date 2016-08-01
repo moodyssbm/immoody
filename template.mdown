@@ -1,0 +1,9 @@
+<img src="moody.png" />
+
+<center>[Home](Home.html) // [About](About.html) // [Projects](Projects.html)</center>
+
+<center><h1>Welcome!</h1></center>
+
+Body text
+
+<center><img src="github.png" /> ~ <img src="mdown.png" /><br /><em><font size="2">Coded with <3 and a little Markdown magic.</font></em></center>
