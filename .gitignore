@@ -1,3 +1,4 @@
 *.zip
 *.sublime-project
 *.md
+.DS_Store
