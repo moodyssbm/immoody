@@ -4,3 +4,8 @@ img {
   margin: 5px 5px 5px 5px;
   height: 111px;
 }
+
+.navi {
+  border: 1px dashed black;
+  margin: 0% 25% 0% 25%;
+}
