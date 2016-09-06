@@ -4,7 +4,6 @@
     <title>It's a secret to everybody.</title>
   </head>
   <body>
-<div id="emu">
     <div>
       <div id="emulator">
           <p>To play this game, please, download the latest Flash player!</p>
@@ -46,15 +45,13 @@
                 params.allowFullScreen = 'true';
                 params.allowFullScreenInteractive = 'true';
 
-                swfobject.embedSWF('flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
+                swfobject.embedSWF('../flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', '../flash/expressInstall.swf', flashvars, params, attributes);
             }
         }
 
         embed();
     });
 
-</script></div>
-<center><a href="box.html">Back</a></center>
-
-  </body>
+</script>
+<p><a href="../box.html">Back</a></p>
 </html>
