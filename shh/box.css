@@ -80,7 +80,7 @@ p {
     width: 150px;
     text-align:center;   
     font-size: 12px;
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
     -webkit-transition: 0.5s Ease;
     -moz-transition: 0.5s Ease;
