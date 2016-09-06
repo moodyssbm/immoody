@@ -74,9 +74,9 @@ p {
     position: absolute;
     bottom: 0px;
     right: -600px;
-    width: 150px;
+    width: 175px;
     text-align:center;   
-    font-size: 12px;
+    font-size: 15px;
     margin: 0px;
     padding: 5px;
     -webkit-transition: 0.5s Ease;
