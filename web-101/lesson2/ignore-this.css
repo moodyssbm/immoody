@@ -20,5 +20,6 @@ body {
 .links {
   color: white;
   font-family: sans-serif;
+  font-size: 50px;
   text-align: center;
 }
