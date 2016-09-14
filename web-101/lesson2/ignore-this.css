@@ -1,0 +1,19 @@
+/* Oh, you just HAD to open this, didn't you? I was using this
+as a CSS placeholder during development so I didn't have to
+copy and paste each little change across the multiple files.
+I'm leaving this note because I'm probably way too lazy to
+delete the file afterward. */
+
+body {
+  background-color: #E5E5E5;
+}
+
+.navbar {
+  width: 25%;
+  height: 100px;
+  color: #333333;
+}
+
+.links {
+  color: white;
+}
