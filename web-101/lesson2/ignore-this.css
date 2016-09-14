@@ -9,9 +9,9 @@ body {
 }
 
 .navbar {
-  width: 25%;
+  width: 200px;
   height: 100px;
-  color: #333333;
+  background: #333333;
 }
 
 .links {
