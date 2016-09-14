@@ -20,6 +20,5 @@ body {
 .links {
   color: white;
   font-family: sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
