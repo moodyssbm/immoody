@@ -9,11 +9,16 @@ body {
 }
 
 .navbar {
-  width: 200px;
+  width: 25%;
   height: 100px;
   background: #333333;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .links {
   color: white;
+  font-family: sans-serif;
+
 }
