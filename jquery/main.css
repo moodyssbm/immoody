@@ -22,6 +22,10 @@
     padding-top: 11px;
 }
 
+.title-line {
+    width: 50%;
+}
+
 a {
     text-decoration: none;
 }
