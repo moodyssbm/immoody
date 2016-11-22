@@ -73,7 +73,7 @@ p {
     background-color: rgba(0,0,0,0.5);
     color: #FFFFFF;
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     right: -600px;
     width: 175px;
     text-align:center;   
