@@ -20,7 +20,7 @@ let pageNames = [
 
 if(pages.length == pageNames.length) {
 	for(i=0; i!=pages.length; i++) {
-		nav.innerHTML += '<a href="' + pages[i] + '.html">' + pageNames[i] + '</a>';
+		nav.innerHTML += '<a href="' + pages[i] + '">' + pageNames[i] + '</a>';
 
 		if(i != pages.length - 1) {
 			nav.innerHTML += ' // ';
