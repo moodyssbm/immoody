@@ -1,0 +1,58 @@
+/*
+	Colors
+	Dark - #111
+	Light - #777
+	Pink - rgb(254,213,201)
+*/
+
+/* TAGS */
+
+body {
+	font-family: Helvetica, sans-serif;
+	background: #111;
+	color: #111;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(254, 213, 201);
+}
+
+p, h3 {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+/* CLASSES */
+
+.blurb {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #777;
+	width: 900px;
+	border-radius: 20px;
+}
+
+.pinkHead {
+	background: rgb(254, 213, 201);
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+	text-align: center;
+}
+
+/* IDS */
+
+#moody {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav, #foot {
+	text-align: center;
+}
