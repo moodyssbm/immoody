@@ -14,11 +14,19 @@
 
 		<div class="blurb">
 			<h1 class="pinkHead">Step 0: Overview</h1>
-            <p>This guide will help you to set up a DOS-like pause command for macOS (OS X if you're on an older version) and Linux. Keep in mind that anything that looks like <span class="code">this</span> is code. I will specify whether the code being displayed is for the terminal or for a file.</p>
+            <p>
+                This guide will help you to set up a DOS-like pause command for macOS (OS X if you're on an
+                older version) and Linux. Keep in mind that anything that looks like
+                <span class="code">this</span>
+                is code. I will specify whether the code being displayed is for the terminal or for a file.
+            </p>
             <p>
                 Requirements:
                 <ul>
-                    <li>A computer running macOS/OS X (You can follow this guide for Linux. Just use apt instead of brew.)</li>
+                    <li>
+                        A computer running macOS/OS X (You can follow this guide for Linux. Just use apt
+                        instead of brew.)
+                    </li>
                     <li>Homebrew for macOS. <a target="_blank" href="http://brew.sh">Install guide.</a></li>
                     <li>
                         Node - Install this after Homebrew.
@@ -29,19 +37,39 @@
                 </ul>
             </p>
 		</div>
-
+z
         <div class="blurb">
             <h1 class="pinkHead">Step 1: Folder Setup</h1>
-            <p>You can really put this anywhere. We're just going to be referencing this folder later, so remember where it is! Once you have decided where to put your folder, navigate to it using a terminal <span class="code">cd path/to/your/folder</span> and initialize node <span class="code">npm init</span></p>
-            <p>Node will spit a lot of things out to the console. Just keept hitting Enter/Return until you're back to the main shell.</p>
-            <p>Install the "keypress" package using Node Package Manager <span class="code">npm i keypress</span></p>
-            <p>While you have your terminal open in the root of your new folder, initialize the main JavaScript file you'll be editing. I call mine pause <span class="code">touch pause && chmod +x pause</span></p>
+            <p>
+                You can really put this anywhere. We're just going to be referencing this folder later, so
+                remember where it is! Once you have decided where to put your folder, navigate to it using a
+                terminal
+                <span class="code">cd path/to/your/folder</span>
+                and initialize node
+                <span class="code">npm init</span>
+            </p>
+            <p>
+                Node will spit a lot of things out to the console. Just keept hitting Enter/Return until
+                you're back to the main shell.
+            </p>
+            <p>
+                Install the "keypress" package using Node Package Manager
+                <span class="code">npm i keypress</span>
+            </p>
+            <p>
+                While you have your terminal open in the root of your new folder, initialize the main
+                JavaScript file you'll be editing. I call mine pause
+                <span class="code">touch pause && chmod +x pause</span>
+            </p>
             <p>I'll get to why I didn't add a .js extension in the next step.</p>
         </div>
 
         <div class="blurb">
             <h1 class="pinkHead">Step 2: The Code</h1>
-            <p>Go ahead and copy + paste the following code into your pause file you created at the end of step 1.</p>
+            <p>
+                Go ahead and copy + paste the following code into your pause file you created at the end of
+                step 1.
+            </p>
             <ul class="code">
                 <li>#!/usr/bin/env node<li>
                 <li></li>
