@@ -27,6 +27,17 @@ p {
 	padding-bottom: 10px;
 }
 
+ul {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+
 /* CLASSES */
 
 .blurb {
@@ -36,6 +47,7 @@ p {
 	background: #777;
 	width: 900px;
 	border-radius: 20px;
+	padding-bottom: 2px;
 }
 
 .pinkHead {
@@ -43,6 +55,15 @@ p {
 	width: 100%;
 	border-radius: 20px 20px 0px 0px;
 	text-align: center;
+}
+
+.code {
+	background: #444;
+	border: 1px solid #222;
+	padding: 2px;
+	color: white;
+	font-family: monospace;
+	list-style: none;
 }
 
 /* IDS */
@@ -55,4 +76,11 @@ p {
 
 #nav, #foot {
 	text-align: center;
+	margin-bottom: 0px;
+}
+
+/* MISC */
+
+.code ul {
+	list-style: none
 }

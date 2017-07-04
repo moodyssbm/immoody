@@ -13,9 +13,119 @@
 		</div>
 
 		<div class="blurb">
-			<h1 class="pinkHead">Overview</h1>
-            <p>Test</p>
+			<h1 class="pinkHead">Step 0: Overview</h1>
+            <p>This guide will help you to set up a DOS-like pause command for macOS (OS X if you're on an older version) and Linux. Keep in mind that anything that looks like <span class="code">this</span> is code. I will specify whether the code being displayed is for the terminal or for a file.</p>
+            <p>
+                Requirements:
+                <ul>
+                    <li>A computer running macOS/OS X (You can follow this guide for Linux. Just use apt instead of brew.)</li>
+                    <li>Homebrew for macOS. <a target="_blank" href="http://brew.sh">Install guide.</a></li>
+                    <li>
+                        Node - Install this after Homebrew.
+                        <ul>
+                            <li><span class="code">brew install node</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
 		</div>
+
+        <div class="blurb">
+            <h1 class="pinkHead">Step 1: Folder Setup</h1>
+            <p>You can really put this anywhere. We're just going to be referencing this folder later, so remember where it is! Once you have decided where to put your folder, navigate to it using a terminal <span class="code">cd path/to/your/folder</span> and initialize node <span class="code">npm init</span></p>
+            <p>Node will spit a lot of things out to the console. Just keept hitting Enter/Return until you're back to the main shell.</p>
+            <p>Install the "keypress" package using Node Package Manager <span class="code">npm i keypress</span></p>
+            <p>While you have your terminal open in the root of your new folder, initialize the main JavaScript file you'll be editing. I call mine pause <span class="code">touch pause && chmod +x pause.js</span></p>
+            <p>I'll get to why I didn't add a .js extension in the next step.</p>
+        </div>
+
+        <div class="blurb">
+            <h1 class="pinkHead">Step 2: The Code</h1>
+            <p>Go ahead and copy + paste the following code into your pause file you created at the end of step 1.</p>
+            <ul class="code">
+                <li>#!/usr/bin/env node<li>
+                <li></li>
+                <li>let keypress = require('keypress');</li>
+                <li>keypress(process.stdin);</li>
+                <li></li>
+                <li>console.log('Press any key to continue . . .');</li>
+                <li></li>
+                <li>process.stdin.on('keypress',</li>
+                <ul>
+                    <li>function(ch,key)</li>
+                    <li>{</li>
+                    <ul>
+                        <li>process.exit();</li>
+                    </ul>
+                    <li>}</li>
+                </ul>
+                <li>);</li>
+                <li></li>
+                <li>process.stdin.setRawMode(true);</li>
+            </ul>
+
+            <p>
+                So, we named the file pause instead of pause.js because we don't want to call
+                <span class="code">system("pause.js");</span>
+                in our C code. Dropping the extension just allows us to call pause.
+                Now, this is possible because we set our environment on the first line to execute
+                this file with node.
+            </p>
+        </div>
+
+        <div class="blurb">
+            <h1 class="pinkHead">Step 3: Test the Code</h1>
+            <p>
+                If you've followed the guide to a T up to this point, you should be able to execute
+                your program now! Try it in your terminal with
+                <span class="code">./pause</span>
+            </p>
+
+            <p>
+                If it's running, then great! You should be able to press any key while in the terminal
+                to end the node execution. If you're getting an error, I'd recommend going through the
+                guide again to see if you missed any steps.
+            </p>
+        </div>
+
+        <div class="blurb">
+            <h1 class="pinkHead">Step 4: Making it a Global Executable</h1>
+            <p>
+                Just to preface this step, if you've already set up a local ~/bin folder
+                for your User account in MacOS, just move your pause executable there and
+                install the keypress package again to your ~/bin folder. Otherwise, continue
+                reading.
+            </p>
+
+            <p>
+                Since you should already be in your terminal, navigate to your home folder and
+                make your bin folder with
+                <br><span class="code">cd ~ && mkdir bin</span>.
+                Next, go ahead and copy the node_modules folder and pause file from the last directory to ~/bin.
+                Now you'll want to navigate back to your home folder with <span class="code">cd ~</span>.
+            </p>
+
+            <p>
+                Go ahead and open your .bash_profile file in your home directory with
+                <span class="code">nano ./.bash_profile</span>.
+                Nano--a terminal-based text editor--will open with your .bash_profile file. All you have
+                to do here is add this line to the file to specify your User executable path.
+                <span class="code">PATH=$PATH:$HOME/bin</span>
+                This will make any executable file in your ~/bin folder accessible from anywhere.
+            </p>
+        </div>
+
+        <div class="blurb">
+            <h1 class="pinkHead">Step 5: Final Steps and Testing</h1>
+            <p>
+                Go ahead and grab my pause-test Python executable from
+                <a href="http://immoody.com/_misc/pause-test.zip">here</a>.
+                Once it finishes downloading, decompress the .zip file by double clicking on it.
+                Now you should have a folder called "pause-test". Go into the folder and double click
+                on the pause-test executable. A terminal window should appear, and it should be waiting
+                for you to press any key.
+            </p>
+        </div>
 
 		<div class="blurb">
 			<h4 id="foot"></h4>
