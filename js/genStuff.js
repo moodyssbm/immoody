@@ -2,6 +2,12 @@ let nav = document.getElementById('nav');
 
 let foot = document.getElementById('foot');
 
+let up = '';
+
+for(i=0; i!=subPageIndex; i++) {
+	up += '../';
+}
+
 let pages = [
 	'./index',
 	'./about',
@@ -20,7 +26,7 @@ let pageNames = [
 
 if(pages.length == pageNames.length) {
 	for(i=0; i!=pages.length; i++) {
-		nav.innerHTML += '<a href="' + pages[i] + '">' + pageNames[i] + '</a>';
+		nav.innerHTML += '<a href="' + up + pages[i] + '">' + pageNames[i] + '</a>';
 
 		if(i != pages.length - 1) {
 			nav.innerHTML += ' // ';
